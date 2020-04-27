@@ -1,0 +1,70 @@
+body {
+    background-image: url("img/triangular.png");
+}
+
+.game {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#game {
+    background: url("img/footer_lodyas.png") #000;
+    border: 5px solid rgba(0, 0, 0, 0.32);
+}
+
+.choose_gameplay {
+    text-align: center;
+}
+
+.choose_player_btn {
+    padding: 15px;
+    margin: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.title {
+    font-size: 32px;
+    padding: 50px 0;
+}
+
+#active_players {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#active_players li {
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+}
+
+#active_players .available div{
+    border-radius: 5px;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+    cursor:pointer;
+}
+#active_players .available span:hover{
+    color: blue;
+    cursor:pointer;
+}
+#active_players .busy div{
+    border-radius: 5px;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+
+.hidden {
+    display: none;
+}
